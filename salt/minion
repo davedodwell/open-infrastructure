@@ -1,0 +1,12 @@
+state_verbose: False
+file_client: local
+
+file_roots:
+  base:
+    - /vagrant/salt/root
+    - /stackstrap/salt
+
+pillar_roots:
+  base:
+    - /vagrant/salt/pillar
+    - /stackstrap/pillar
